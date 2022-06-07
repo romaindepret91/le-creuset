@@ -1,0 +1,224 @@
+/*
+Theme Name: Twenty Twenty-One Child
+Theme URI: http://example.com/twenty-twenty-one-child/
+Description: Twenty Twenty-One Child Theme
+Author: Romain Depret
+Author URI: http://example.com
+Template: twentytwentyone
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a:-webkit-any-link, a {
+    text-decoration: none;
+}
+
+.site-main {
+    padding: 0;
+}
+
+.site-main > * {
+    margin: 0;
+}
+
+.wrapper {
+    padding: 0 24vw;
+}
+
+.homepage-header {
+    width: 100%;
+}
+
+.homepage-header__hero {
+    height: 60vh;
+    width: 100%;
+    position: relative;
+}
+
+.hero-img { 
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+.hero-title {
+    font-size: 5rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homepage-header__text {
+    height: 60vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    width: 100%;
+    background-color: white;
+}
+
+.homepage-header__text-content {
+    margin: 0 auto;
+    height: 50%;
+}
+
+.homepage-main-content {
+    background-color: #fceee9;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.homepage-main-content > div + div {
+    padding-top: 15vh;
+}
+
+.vaisselle, .service {
+    max-width: var(--responsive--alignwide-width);
+    margin: 0 auto;
+}
+
+.vaisselle-title, .service-title {
+    padding-bottom: 5vh;
+}
+
+.vaisselle-content, .service-content {
+    display: grid;
+    grid-gap: 2.5vw;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.vaisselle-item, .service-item {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2vw;
+}
+
+.vaisselle-img, .service-img {
+    border-radius: 5px 5px 0 0;
+}
+
+.item-title {
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.footer-navigation-wrapper {
+    justify-content: flex-start;
+}
+
+.article-block {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: var(--responsive--alignwide-width);
+    margin: 0 auto;
+}
+
+.article-block-title {
+    width: 100%;
+}
+
+.article-block-title > h2 {
+    font-size: 4rem;
+}
+
+.site-main > article > * {
+    margin: 0;
+}
+
+.article-block-img {
+    width: 30%;
+    padding-top: 10vh;
+}
+
+.article-categorie, .article-price {
+    font-size: 1.5rem;
+}
+
+.article-price {
+    font-weight: 500;
+}
+
+.article-block-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 10vh;
+    padding-left: 5vw;
+    width: 70%;
+}
+
+.article-description {
+    width: 80%;
+}
+
+.article-description-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.categorie-page-main-content {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    background-color: 	#F5F4F5;
+}
+
+.categorie-page-header {
+    height: 40vh;
+    position: relative;
+}
+
+.categorie-page-header__hero {
+    height: 100%;
+}
+
+.categorie-page-header__text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.categorie-page-header__text-content {
+    max-width: var(--responsive--alignwide-width);
+    margin: 0 auto;
+}
+
+.categorie-page-header__text-content > p {
+    width: 40%;
+}
+
+.wysiwyg-content {
+    background-color: white;
+}
+
+.wysiwyg-content > * {
+    max-width: var(--responsive--alignwide-width);
+    margin: 0 auto;
+}
+
+.wysiwyg-content > p + p {
+    margin-top: 3vh;
+}
+
+.wysiwyg-content > ul {
+    padding: 0;
+    margin-top: 8vh;
+    list-style-position: inside;
+}
+
+.wysiwyg-content img {
+    width: 100%;
+    margin: 10vh 0;
+}
+
+
+
